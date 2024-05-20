@@ -13,7 +13,7 @@ run_attack_input_reduction.py, run_attack_input_reduction.sbatch – файлы,
 
 run_attack_symbols_change.py, run_attack_symbols_change.sbatch – файлы, связанные с атакой "Изменение символов". 
 
-Использование последних для запуска на SLURM сервере:
+Запуск состязательных атак на SLURM сервере:
 
 ```
 sbatch run_attack_{$ATTACK_NAME}.sbatch
