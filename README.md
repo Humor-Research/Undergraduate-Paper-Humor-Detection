@@ -9,11 +9,11 @@ conversational_datasets.ipynb – формирование новых допол
 attack_results.ipynb – примеры, численные результаты и облака слов для новых состязательных атак.
 
 
-run_attack_input_reduction.py, run_attack_input_reduction.sbatch – файлы связанные с атакой "Ключевые слова". 
+run_attack_input_reduction.py, run_attack_input_reduction.sbatch – файлы, связанные с атакой "Ключевые слова". 
 
 run_attack_symbols_change.py, run_attack_symbols_change.sbatch – файлы, связанные с атакой "Изменение символов". 
 
-Использование для запуска на SLURM сервере:
+Использование последних для запуска на SLURM сервере:
 
 ```
 sbatch run_attack_{$ATTACK_NAME}.sbatch
